@@ -35,9 +35,10 @@ public class Ejemplo06 {
         
         do {
             operacion = tabla * contador;
+            
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
             contador = contador + 1;
-        } while (contador <= limite);
+        } while (contador <= 10);
 
     }
 }
