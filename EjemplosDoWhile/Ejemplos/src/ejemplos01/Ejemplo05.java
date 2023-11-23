@@ -15,8 +15,7 @@ public class Ejemplo05 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        double numero; 
-        double potencia;
+        
            
         // 2. numero, i[0, n]
         int numero;
@@ -35,6 +34,7 @@ public class Ejemplo05 {
             System.out.println("Ingrese numero");
             numero = entrada.nextInt(); 
            System.out.println( "Ingrese potencia");
+           potencia = entrada.nextInt();
         do {
             resultado = resultado * numero;
             contador = contador + 1;

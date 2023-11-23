@@ -37,7 +37,7 @@ public class Ejemplo08 {
                 signo = "-";
             }
             
-            cadena = String.format("%s%s%d/%d ", 
+            cadena = String.format("%s%s%d/%d\n ", 
                     cadena,
                     signo,
                     numerador, 
@@ -45,7 +45,7 @@ public class Ejemplo08 {
             denominador = denominador + 1;
 
         } while (denominador <= limite);
-
+                    //2 <= 10 v
         System.out.println(cadena);
 
     }
