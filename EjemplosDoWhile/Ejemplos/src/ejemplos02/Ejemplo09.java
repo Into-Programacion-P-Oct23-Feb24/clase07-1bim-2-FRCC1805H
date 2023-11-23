@@ -25,20 +25,32 @@ public class Ejemplo09 {
         
         String cadenaFinal;
         int nota;
+        int nota2;
         int salida;
         String nombre; // *
+        String nombre2;
         double promedio;
         boolean bandera = true;
         int suma = 0;
         int contador_calificaciones = 0;
         
-        cadenaFinal = "Listado de Notas\n";
-        
+        cadenaFinal = "Listado de Notas\n" ;
+        System.out.println("Ingrese nombre");
+            nombre =  entrada.nextLine();
+            
+            System.out.println("Ingrese nota");
+            nota = entrada.nextInt();
+            
+            System.out.println("Ingrese nombre");
+            nombre2 =  entrada.nextLine();
+           
+            System.out.println("Ingrese nota");
+            nota2 = entrada.nextInt();
         do {
             
             
             // agrego valor al acumulador
-            suma = suma + nota;
+            suma = suma + contador_calificaciones;
             // agrego una unidad al contador para luego sacar el promedio
             contador_calificaciones = contador_calificaciones + 1;
             
